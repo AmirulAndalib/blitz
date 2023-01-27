@@ -1,5 +1,12 @@
 # @blitzjs/generator
 
+## 2.0.0-beta.23
+
+### Patch Changes
+
+- cb63a0ea5: Guard `blitz g` input via an allow-list of characters; throw if unwanted characters are found. Prevents to break the blitz command by accident (https://github.com/blitz-js/blitz/issues/4021).
+- 79c5e86d7: Add missing Layout.tsx for generated mimimalapp
+
 ## 2.0.0-beta.22
 
 ### Minor Changes
